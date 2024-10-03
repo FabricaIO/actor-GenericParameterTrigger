@@ -10,12 +10,12 @@
 #include <vector>
 #include <map>
 
-/// @brief Allows for retriveal of a particular parameter's value
+/// @brief Allows for retrieval of a particular set of parameters' value
 class GenericParameterTrigger {
-	protected:
-		/// @brief Holds pump configuration
+	public:
+		/// @brief Holds parameter configuration
 		struct {			
-			/// @brief A set of sensor paramter names to use 
+			/// @brief A set of sensor paramater names to use 
 			std::vector<String> Parameters;
 
 			/// @brief Whether to enable auto triggering or not
