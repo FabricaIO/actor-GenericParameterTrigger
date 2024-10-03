@@ -11,7 +11,7 @@
 #include <map>
 
 /// @brief Allows for retrieval of a particular set of parameters' value
-class GenericParameterTrigger {
+class ParameterTrigger {
 	public:
 		/// @brief Holds parameter configuration
 		struct {			
